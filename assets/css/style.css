@@ -20,25 +20,26 @@
 }
 /*---------------------------------------------------------- Speciaö paddings/margins/text */
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
 .uppercase {
-    text-transform: uppercase;
+   text-transform: uppercase; 
 }
-
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: #fafafa;
+    color: #fafafa
 }
-
 .inline-block {
     display: inline-block;
 }
 /*---------------------------------------------------------- Heading */
-header {
+.header {
     margin: 0;
 }
 
@@ -46,7 +47,7 @@ header {
     margin-left: 0px;
 }
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/rosie2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +55,6 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-
 }
 
 .name {
@@ -72,6 +72,11 @@ header {
     color: #fff;
 }
 
+.navdiv {
+    margin-left: 0;
+
+}
+
 .list-inline-item:not(:last-child) {
     margin:0;
 }
@@ -86,12 +91,6 @@ header {
 
 #nav li {
     font-size: 14px;
-    padding: 0;
-}
-
-.menuitem {
-    height: 120px;
-    text-align: center;
     padding: 0;
 }
 
